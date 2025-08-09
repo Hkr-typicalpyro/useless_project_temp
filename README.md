@@ -1,95 +1,129 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [ഇനി ഞാൻ പറയും നീയോക്കെ കേൾക്കും] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Bro_code]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Harikrishnan Rajesh] - [Bro_1]
+- Member 2: [Abhinav Pradeep] - [Bro_2]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Retro game rethinked in a different way using OpenCV(Here the player is the fruit) and the enemy is the Snake)]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[It has all the problem there ever is...]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[I even dont know how i solved the error to even upload it]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
+- [Python]
+- [Open CV]
+- [React]
+- [Typscript]
 
 ### Project Documentation
 For Software:
+# Enhanced Snake Game with Face Capture & Roasting
+
+This is a finger-controlled reverse snake game that now includes a hilarious face capture and roasting system when you lose!
+
+## Features
+
+- *Finger-controlled gameplay*: Use your index finger to guide the snake
+- *Progressive difficulty*: 5 levels with increasing obstacles and speed
+- *Face capture on game over*: When you lose, the game captures your face
+- *Funny distortion filter*: Applies a hilarious distortion to your captured face
+- *AI-powered roasting*: Gets a sarcastic roast from GPT-4 based on your score
+- *Retro game over screen*: Beautiful retro-styled display with your face and roast
+
+## Requirements
+
+- Python 3.7+
+- Webcam
+
+## Installation
+
+1. Install dependencies:
+bash
+pip install -r requirements.txt
+
+
+2. Make sure you have a webcam connected
+
+## How to Play
+
+1. Run the game:
+bash
+python snake_game.py
+
+
+2. Press 'S' to start
+3. Use your index finger to guide the snake to the target
+4. Avoid obstacles and don't let the snake hit itself
+5. When you lose, the game will:
+   - Capture your face
+   - Apply a funny distortion
+   - Get a roast
+   - Show a game over screen
+
+## Controls
+
+- *S*: Start game
+- *R*: Restart after game over
+- *Q*: Quit game
+- *ESC*: Quit game
+
+## Game Mechanics
+
+- *Reverse Snake*: The snake follows your finger position
+- *Progressive Difficulty*: 
+  - Level 1: Basic gameplay
+  - Level 2: Static obstacles
+  - Level 3: Moving obstacles
+  - Level 4: Blinking targets
+  - Level 5: All challenges combined
+- *Scoring*: Points for reaching targets and time-based growth
+
+## Face Capture System
+
+The face capture system:
+1. Captures a high-resolution image from your webcam
+2. Applies a circular distortion filter for comedic effect
+3. Fetches a personalized roast from GPT-4
+4. Displays everything on a retro-styled game over screen
+
+## Troubleshooting
+
+- *No camera found*: Make sure your webcam is connected and not in use by other applications
+- *Face capture fails*: Check your webcam permissions and lighting
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](https://github.com/user-attachments/assets/58c86dc4-9b77-4ec2-8796-6f9287c8e6a2)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](https://github.com/user-attachments/assets/7ff762b4-77c6-4f20-a0a4-6fa39e52bbf8)
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-For Hardware:
+![Screenshot3](https://github.com/user-attachments/assets/520a262e-3cfb-414c-8458-1b6a998eb306)
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[https://youtu.be/EETfdE5ZWwQ?si=IZ-UARa5jB5298RH]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
+- [Harikrishnan Rajesh]: [Backend OpenCV]
+- [Abhinav Pradeep]: [Frontend React]
 - [Name 3]: [Specific contributions]
 
 ---
