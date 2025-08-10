@@ -52,9 +52,40 @@ This is a finger-controlled reverse snake game that now includes a hilarious fac
 ## Installation
 
 1. Install dependencies:
-bash
-pip install -r requirements.txt
 
+Backend Requirements (Python):
+-----------------------------
+Install these using pip install -r requirements.txt:
+opencv-python==4.8.1.78 - Computer vision library
+mediapipe==0.10.7 - Media processing library for ML pipelines
+numpy==1.24.3 - Numerical computing library
+requests==2.31.0 - HTTP library for making requests
+pygame==2.5.2 - Game development library
+
+
+Frontend Requirements (Node.js):
+-------------------------------
+Install these using npm install:
+Dependencies (Production):
+@fontsource/poppins - Poppins font family
+@lottiefiles/dotlottie-react - Lottie animation support
+react - React framework
+react-dom - React DOM rendering
+
+
+DevDependencies (Development):
+------------------------------
+@eslint/js - ESLint JavaScript rules
+@types/react - TypeScript types for React
+@types/react-dom - TypeScript types for React DOM
+@vitejs/plugin-react - Vite plugin for React
+eslint - Code linting
+eslint-plugin-react-hooks - ESLint rules for React hooks
+eslint-plugin-react-refresh - ESLint rules for React refresh
+globals - Global variables for ESLint
+typescript - TypeScript compiler
+typescript-eslint - TypeScript ESLint integration
+vite - Build tool and dev server
 
 2. Make sure you have a webcam connected
 
@@ -97,8 +128,7 @@ python snake_game.py
 The face capture system:
 1. Captures a high-resolution image from your webcam
 2. Applies a circular distortion filter for comedic effect
-3. Fetches a personalized roast from GPT-4
-4. Displays everything on a retro-styled game over screen
+3. Displays everything on a game over screen
 
 ## Troubleshooting
 
@@ -124,7 +154,6 @@ The face capture system:
 ## Team Contributions
 - [Harikrishnan Rajesh]: [Backend OpenCV]
 - [Abhinav Pradeep]: [Frontend React]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
